@@ -18,7 +18,7 @@ void UpdateDrawFrame();
 
 int main(void)
 {
-	InitWindow(WIDTH, HEIGHT+50, "Pixel Art! :)");
+	InitWindow(WIDTH, HEIGHT, "raylib [core] example - basic window");
 
 	#if defined(PLATFORM_WEB)
     	emscripten_set_main_loop(UpdateDrawFrame, 0, 1);
